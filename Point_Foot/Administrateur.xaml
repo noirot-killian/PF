@@ -1,0 +1,17 @@
+﻿<Window x:Class="Point_Foot.Administrateur"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Point_Foot"
+        mc:Ignorable="d"
+        Title="Administrateur" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblBienvenueA" Content="BIENVENUE ADMINISTRATEUR !" HorizontalAlignment="Left" Height="42" Margin="190,28,0,0" VerticalAlignment="Top" Width="450" FontFamily="Arial Black" FontSize="24"/>
+        <Label x:Name="lblPseudoA" Content="PSEUDO :" HorizontalAlignment="Left" Height="44" Margin="100,123,0,0" VerticalAlignment="Top" Width="146" FontFamily="Arial Black" FontSize="20"/>
+        <Label x:Name="lblMdpA" Content="MOT DE PASSE :" HorizontalAlignment="Left" Height="58" Margin="100,213,0,0" VerticalAlignment="Top" Width="204" FontFamily="Arial Black" FontSize="20"/>
+        <TextBox x:Name="tbxPseudoA" HorizontalAlignment="Left" Height="44" Margin="304,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="376" FontFamily="Arial Black" FontSize="20"/>
+        <TextBox x:Name="tbxMdpA" HorizontalAlignment="Left" Height="46" Margin="327,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="371" FontSize="20" FontFamily="Arial Black"/>
+
+    </Grid>
+</Window>

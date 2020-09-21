@@ -1,0 +1,18 @@
+﻿<Window x:Class="Point_Foot.Educateur"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Point_Foot"
+        mc:Ignorable="d"
+        Title="Educateur" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblBienvenueE" Content="BIENVENUE EDUCATEUR !" HorizontalAlignment="Left" Margin="242,38,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="24"/>
+        <Label x:Name="lblPseudoE" Content="PSEUDO :" HorizontalAlignment="Left" Margin="120,134,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="20"/>
+        <Label x:Name="lblMdpE" Content="MOT DE PASSE :" HorizontalAlignment="Left" Height="48" Margin="90,222,0,0" VerticalAlignment="Top" Width="196" FontSize="20" FontFamily="Arial Black"/>
+        <TextBox x:Name="tbxPseudoE" HorizontalAlignment="Left" Height="33" Margin="332,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="328" FontFamily="Arial Black" FontSize="20"/>
+        <TextBox x:Name="tbxMdpE" HorizontalAlignment="Left" Height="36" Margin="332,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="328" FontFamily="Arial Black" FontSize="20"/>
+        <Button x:Name="btnConnexionE" Content="Se connecter" HorizontalAlignment="Left" Height="62" Margin="332,314,0,0" VerticalAlignment="Top" Width="176" FontFamily="Arial Black" FontSize="20"/>
+
+    </Grid>
+</Window>
